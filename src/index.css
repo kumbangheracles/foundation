@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar ================================= */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+    gap: 200px;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+    background-color: #ffffff;
+    /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); */
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color:  black;
+}
+.contact-button button{
+    width: 190px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #10847D;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/* Main Section */
+section{
+    height: 100vh;
+}
+/* Home ===================================================== */
+
+#home{
+    padding-top: 100px;
+}
+.home-description{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 55%;
+}
+.home-description h1{
+    color: #10375C;
+    font-size: 44px;
+}
+.home-description p{
+    color: #424242;
+    font-size: 20px;
+}
+.home-desc-point{
+    display: flex;
+    gap: 50px;
+}
+.home-desc-point div h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+.home-desc-point div span{
+    font-size: 20px;
+    color: #FFA800;
+}
+.home-desc-point div p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #999999;
+}
+.home-location p{
+    color: #999999;
+}
+.home-location div{
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 400px;
+}
+.home-location div p{
+    color: black;
+}
+.home-button button{
+    background-color: white;
+    width: 228px;
+    height: 73px;
+    border-radius: 5px;
+    border: 3px solid #10847D;
+    font-weight: 600;
+    font-size: 20px;
+    color: #10847D;
+    cursor: pointer;
+}
+
+.home-wrapper{
+    display: flex;
+    gap: 20px;
+}
+.home-img{
+    position: relative;
+    height: auto;
+    width: 45%;
+    overflow-x: hidden;
+}
+.img-background-style{
+    background-color: #1b978f;
+    padding: 1rem;
+    height: 423px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.home-img img{
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+    left: -140px;
+    width: 150vh;
+
+}
+.dots img{
+    width: 70vh;
+    z-index: -10;
+}
+.dots{
+    position: absolute;
+    right: 200px;
+}
