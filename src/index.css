@@ -13,6 +13,7 @@ nav{
     align-items: center;
     gap: 200px;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 900;
     background-color: #ffffff;
@@ -51,6 +52,7 @@ nav{
 /* Main Section */
 section{
     height: 100vh;
+    margin-top: 50px;
 }
 /* Home ===================================================== */
 
@@ -146,4 +148,22 @@ section{
 .dots{
     position: absolute;
     right: 200px;
+}
+
+/* About ================================================= */
+.about-img-container{
+    position: relative;
+    padding: 1rem;
+}
+.about-img{
+    /* position: absolute; */
+    width: 420px;
+    height: 550px;
+    border-radius: 20px;
+}
+.about-dots{
+    /* position: absolute; */
+    width: 342px;
+    height: 225px;
+    z-index: 1;
 }
