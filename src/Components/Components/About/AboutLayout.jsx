@@ -1,9 +1,9 @@
 import React from "react";
-import AboutLeftSide from "./AboutLeftSide";
+import AboutWrapper from "./AboutWrapper";
 export default function AboutLayout(){
     return(
         <section id="about">
-            <AboutLeftSide/>
+            <AboutWrapper/>
         </section>
     )
 }

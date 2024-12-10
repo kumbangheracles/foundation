@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    /* border: 1px solid; */
 }
 
 /* Navbar ================================= */
@@ -261,4 +262,56 @@ section{
     position: absolute;
     z-index: -10;
     top: 0;
+}
+/* About Wrapper */
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+
+}
+/* About Right Side */
+
+.about-description{
+    padding: 1rem;
+}
+.about-description span{
+    color: rgba(223, 178, 17, 1);
+    font-weight: 600;
+    font-size: 18px;
+}
+.about-description h3{
+    font-size: 52px;
+    font-weight: 600;
+    color: rgba(16, 55, 92, 1);
+}
+
+.about-description p{
+    color: rgba(102, 102, 102, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-email-input{
+    padding: 1rem;
+}
+.input-email{
+    position: relative;
+    width: 346px;
+    height: 90px;
+}
+.input-email input{
+    width: 346px;
+    height: 90px;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    outline: none;
+}
+.input-email svg{
+    position: absolute;
+    left: 20%;
+    bottom: 38%;
 }
