@@ -7,7 +7,7 @@ export default function Navbar(){
             <Logo/>
             <List title={"Home"} attribute={"#home"}/>
             <List title={"Services"} attribute={"#services"}/>
-            <List title={"featured"} attribute={"#featured"}/>
+            <List title={"Featured"} attribute={"#featured"}/>
             <List title={"Testimonials"} attribute={"#testimonials"}/>
             <List title={"About us"} attribute={"#about"}/>
         </ul>
