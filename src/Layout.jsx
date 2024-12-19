@@ -2,7 +2,7 @@ import React from "react";
 import HomeLayout from "./Components/Components/Home/HomeLayout";
 import NavLayout from "./Components/Components/Navbar/Nav Layout";
 import AboutLayout from "./Components/Components/About/AboutLayout";
-import ContentLayout from "./Components/Components/Advantages/ContentLayout";
+import AdvantagesLayout from "./Components/Components/Advantages/AdvantagesLayout";
 
 export default function Layout(){
     return(
@@ -10,7 +10,7 @@ export default function Layout(){
         <NavLayout/>
         <HomeLayout/>
         <AboutLayout/>
-        <ContentLayout/>
+        <AdvantagesLayout/>
         </>
     )
 }
