@@ -41,6 +41,9 @@ nav{
     font-weight: 500;
     color: white;
 }
+.navbar li a:hover{
+    color: #f5daa4;
+}
 .contact-button button{
     width: 150px;
     height: 40px;
@@ -50,8 +53,11 @@ nav{
     color: #10847D;
     font-weight: bolder;
     cursor: pointer;
+    transition: 0.3s;
 }
-
+.contact-button button:hover{
+    background-color: white;
+}
 
 /* Main Section */
 section{
@@ -459,14 +465,15 @@ section{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    list-style: none;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
     /* border: 1px solid; */
     padding: 7rem;
-    width: 70%;
-    margin: auto;
+    /* margin: auto; */
     height: 487.6px;
+    flex: 0 0 700px;
+    max-width: 700px;
     /* margin-inline: 115px; */
+    transition: translate 0.5s ease-in-out;
 }
 .testi-header{
     margin-bottom: 1rem;
@@ -516,7 +523,7 @@ section{
     /* overflow-x: hidden; */
     height: 590px;
     /* border: 1px solid black; */
-
+    
 }
 .testi_wrapper{
     max-width: 1200px;

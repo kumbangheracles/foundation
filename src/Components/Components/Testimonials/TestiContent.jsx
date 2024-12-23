@@ -14,20 +14,30 @@ export default function TestiContent() {
 
     return (
         <div className="testi-container">
-            <div className="testi-content">
-                <div className="testi-header">
-                    <div className="testi-img">
-                        <img
-                            src={testiData[divIndex].img}
-                            alt={testiData[divIndex].name}
-                        />
+            <div style={{
+                overflow: "hidden",
+                display: "flex",
+                // justifyContent: "center",   
+                gap:"100px",
+                width: "100%",
+                height: "600px",
+            }}>
+                { testiData.map(item => (
+                <div className="testi-content" key={item.id} style={{ translate: `${-50 * divIndex}%`}}>
+                    <div className="testi-header">
+                        <div className="testi-img">
+                            <img
+                                src={item.img}
+                                alt={item.name}
+                            />
+                        </div>
+                        <span className="testi-name">{item.name}</span>
+                        <span className="testi-job">{item.job}</span>
                     </div>
-                    <span className="testi-name">{testiData[divIndex].name}</span>
-                    <span className="testi-job">{testiData[divIndex].job}</span>
+                    <p>{item.text}</p>
                 </div>
-                <p>{testiData[divIndex].text}</p>
+                ))}
             </div>
-
             {/* Tombol navigasi */}
             <div className="button-wrapper">
                 <button onClick={showPrevDiv}>
