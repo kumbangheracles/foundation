@@ -18,12 +18,12 @@ export default function TestiContent() {
                 overflow: "hidden",
                 display: "flex",
                 // justifyContent: "center",   
-                gap:"100px",
+                // gap:"280px",
                 width: "100%",
                 height: "600px",
             }}>
                 { testiData.map(item => (
-                <div className="testi-content" key={item.id} style={{ translate: `${-50 * divIndex}%`}}>
+                <div className="testi-content" key={item.id} style={{ translate: `${-160 * divIndex}%`}}>
                     <div className="testi-header">
                         <div className="testi-img">
                             <img
