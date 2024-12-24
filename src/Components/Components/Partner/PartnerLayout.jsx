@@ -1,8 +1,10 @@
 import React from "react";
 import { partnerDataTop, partnerDataBot } from "./PartnerData";
+import '../../../partner.css'
+import '../../../output.css'
 function PartnerTop(){
     return(
-        <div className="partner-top flex justify-around">
+        <div className="flex justify-around">
             {
                 partnerDataTop.map((item) =>(
                     <div className="icon-partner" key={item.id}>
