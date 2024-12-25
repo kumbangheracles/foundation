@@ -1,7 +1,6 @@
 import React from "react";
 import { partnerDataTop, partnerDataBot } from "./PartnerData";
 import '../../../partner.css'
-import '../../../output.css'
 function PartnerTop(){
     return(
         <div className="flex justify-around">
