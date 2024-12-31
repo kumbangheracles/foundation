@@ -5,15 +5,17 @@ import AboutLayout from "./Components/Components/About/AboutLayout";
 import PortfolioLayout from "./Components/Components/Portfolio/PortfolioLayout";
 import TestiLayout from "./Components/Components/Testimonials/TestiLayout";
 import PartnerLayout from "./Components/Components/Partner/PartnerLayout";
-export default function Layout(){
-    return(
-        <>
-        <NavLayout/>
-        <HomeLayout/>
-        <AboutLayout/>
-        <PortfolioLayout/>
-        <TestiLayout/>
-        <PartnerLayout/>
-        </>
-    )
+import FooterLayout from "./Components/Components/Footer/FooterLayout";
+export default function Layout() {
+  return (
+    <>
+      <NavLayout />
+      <HomeLayout />
+      <AboutLayout />
+      <PortfolioLayout />
+      <TestiLayout />
+      <PartnerLayout />
+      <FooterLayout />
+    </>
+  );
 }

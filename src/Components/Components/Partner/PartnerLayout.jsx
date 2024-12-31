@@ -2,7 +2,7 @@ import React from "react";
 import { partnerDataTop, partnerDataBot } from "./PartnerData";
 function PartnerTop(){
     return(
-        <div className="flex">
+        <div className="partner-top">
             {
                 partnerDataTop.map((item) =>(
                     <div className="icon-partner" key={item.id}>

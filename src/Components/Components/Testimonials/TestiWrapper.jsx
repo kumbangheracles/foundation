@@ -4,7 +4,7 @@ import TestiContent from "./TestiContent";
 export default function TestiWrapper(){
     return(
         <div className="testi_wrapper">
-            <h1>What Our Customers Says?</h1>
+            <h1>What Our Customers Say?</h1>
             {/* <TestiDots /> */}
             <TestiContent/>
         </div>
