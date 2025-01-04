@@ -4,6 +4,34 @@ import ContentImg2 from "../../../assets/Advantages/ContentImg2.jpg";
 import ContentImg3 from "../../../assets/Advantages/ContentImg3.jpg";
 import ContentImg4 from "../../../assets/Advantages/ContentImg4.jpg";
 
+const content = [
+  {
+      id: 1,
+      title: "Project Guarantee and Payments",
+      description: "Guaranteed project in building materials (material spesifications) transparentely to ensure that the building materials used are appropriate & the payment proccess is guaranteed",
+      imgSrc: ContentImg,
+  },
+  {
+      id: 2,
+      title: "Best Costumer Service",
+      description: "Get 24-hour service during development proccess such as, online project reports, and project reports from our customer service.",
+      imgSrc: ContentImg2,
+  },
+  {
+      id: 3,
+      title: "Free Planning Fee",
+      description: "Free of charge for development proccess such as Survey Fees, Consultation, 2D Building Plan Design (Applicable T&C), RAB (Budget Plan), and Time Schedule.",
+      imgSrc: ContentImg3,
+  },
+  {
+      id: 4,
+      title: "Project Team Escort",
+      description: "Every Project will be provided with online escort by the site manager in order to maintain the quality and result of the project by workers.",
+      imgSrc: ContentImg4,
+  },
+];
+
+
 export default function AdvantagesContent() {
   return (
     <div className="Advantages-desc">
@@ -14,45 +42,16 @@ export default function AdvantagesContent() {
       </p>
 
       <div className="Advantages-content align">
-        <div>
-          <img src={ContentImg} alt="" />
+          {
+            content.map( (index) => (
+              <div key={index.id}>
+                <img src={index.imgSrc} alt="" />
 
-          <h4>Project Guarantee and Payments</h4>
-          <p>
-            Guaranteed project in building materials (material spesifications)
-            transparentely to ensure that the building materials used are
-            appropriate & the payment proccess is guaranteed
-          </p>
-        </div>
-
-        <div>
-          <img src={ContentImg2} alt="" />
-
-          <h4>Best Costumer Service </h4>
-          <p>
-            Get 24-hour service during development proccess such as, online project reports, and project 
-            reports from our customer service.
-          </p>
-        </div>
-
-        <div>
-          <img src={ContentImg3} alt="" />
-
-          <h4>Free Planning Fee</h4>
-          <p>
-            Free of charge for development proccess such as Survey Fees, Consultation, 2D Building Plan Design (Applicable T&C), RAB (Budget Plan), and 
-            Time Schedule.
-          </p>
-        </div>
-
-        <div>
-          <img src={ContentImg4} alt="" />
-
-          <h4>Project Team Escort</h4>
-          <p>
-            Every Project will be provided with online escort by the site manager in order to maintain the quality and result of the project by workers.
-          </p>
-        </div>
+                <h4>{index.title}</h4>
+                <p>{index.description}</p>
+              </div>
+            ))
+          }
       </div>
     </div>
   );

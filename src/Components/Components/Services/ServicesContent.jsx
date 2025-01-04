@@ -3,6 +3,24 @@ import ServiceImg from "../../../assets/Services/ServiceImg.jpg";
 import ServiceImg2 from "../../../assets/Services/ServiceImg2.jpg";
 import ServiceImg3 from "../../../assets/Services/ServiceImg3.jpg";
 
+const content = [
+  {
+      id: 1,
+      title: "Building & Renovation",
+      imgSrc: ServiceImg,
+  },
+  {
+      id: 2,
+      title: "Made & Custom",
+      imgSrc: ServiceImg2,
+  },
+  {
+      id: 3,
+      title: "Design & Planning",
+      imgSrc: ServiceImg3,
+  },
+];
+
 export default function ServicesContent() {
   return (
     <div className="Services-desc">
@@ -13,30 +31,17 @@ export default function ServicesContent() {
       </p>
 
       <div className="Services-content align">
-        <div>
-          <img src={ServiceImg} alt="" />
+        {
+          content.map( (index) => (
+            <div key={index.id}>
+              <img src={index.imgSrc} alt="" />
 
-          <h2>Building & Renovation</h2>
-          <br />
-          <button>Order Now</button>
-        </div>
-
-        <div>
-          <img src={ServiceImg2} alt="" />
-
-          <h2>Made & Custom</h2>
-          <br />
-          <button>Order Now</button>
-        </div>
-
-        <div>
-          <img src={ServiceImg3} alt="" />
-
-          <h2>Design & Planning</h2>
-          <br />
-          <button>Order Now</button>
-        </div>
-        
+              <h2>{index.title}</h2>
+              <br />
+              <button>Order Now</button>
+            </div>
+          ))
+        }
       </div>
     </div>
   );
