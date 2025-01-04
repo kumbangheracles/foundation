@@ -13,7 +13,7 @@ export default function AdvantagesContent() {
         <br /> professional and trusted by our partners and customers
       </p>
 
-      <div className="Advantages-content">
+      <div className="Advantages-content align">
         <div>
           <img src={ContentImg} alt="" />
 
