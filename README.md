@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # Foundation Web
 
-Foundation Web is a personal front-end project designed to showcase my progress and skills as a web developer. This repository contains the code for a responsive, interactive, and visually appealing website that highlights modern front-end development practices.
+Foundation Web is a personal front-end project designed to showcase our progress and skills as a web developer. This repository contains the code for a responsive, interactive, and visually appealing website that highlights modern front-end development practices.
 
 ## Features
 - **Interactive UI:** Smooth navigation and user-friendly interfaces.
