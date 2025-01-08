@@ -47,9 +47,37 @@ This project serves as a portfolio piece to demonstrate:
 - Proficiency in modern web technologies.
 - Application of best practices in coding and design.
 
+## Contributors
+This project was built collaboratively by a team of developers:
+- [Ahmad Herkal Taqyudin](https://github.com/kumbanheracles) - Front-End Developer
+- [Dafa Al Farezi](https://github.com/rezial011) - Front-End Developer
+
 ## License
 This project is open source and available under the [MIT License](LICENSE).
 
----
+### MIT License
+```
+MIT License
+
+Copyright (c) [2024] [Ahmad Herkal Taqyudin, Dafa Al Farezi]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 For feedback or collaboration opportunities, feel free to reach out!
