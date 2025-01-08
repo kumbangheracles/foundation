@@ -93,7 +93,7 @@ This project serves as a portfolio piece to demonstrate:
 
 ## Contributors
 This project was built collaboratively by a team:
-- **UI/UX Designer:** [Tito](https://github.com/designerusername) - Responsible for crafting the overall design and user experience of the website, including wireframes, prototypes, and final mockups.
+- **UI/UX Designer:** [Tito](https://github.com/titotriatmojo) - Responsible for crafting the overall design and user experience of the website, including wireframes, prototypes, and final mockups.
 - [kumbangheracles](https://github.com/kumbanheracles) - Front-End Developer
 - [rezial011](https://github.com/rezial011) - Front-End Developer
 
