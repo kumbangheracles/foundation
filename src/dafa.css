@@ -1,0 +1,297 @@
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* advantages  */
+.Advantages {
+  color: #10375c;
+  padding: 0 4%;
+  text-align: center;
+  height: auto;
+}
+
+.Advantages-desc h1 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+
+.Advantages-desc p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.35px;
+  color: #4f5665;
+}
+
+.Advantages-content {
+  height: 369.22px;
+
+  column-gap: 1.5%;
+  margin-top: 45px;
+}
+
+.Advantages-content div {
+  justify-content: baseline;
+  flex-direction: column;
+
+  border-radius: 15px;
+  border: 1.16px solid #dddddd;
+  height: 328.16px;
+  width: 272.29px;
+  padding: 1%;
+
+  transition: margin-right 0.5s ease;
+}
+
+.Advantages-content div:hover {
+  cursor: pointer;
+  background-color: #10847d;
+  color: white;
+  font-size: 18px;
+  height: 369.22px;
+
+  border: none;
+  margin: 0 1%;
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 23px;
+}
+
+.Advantages-content div:hover p {
+  color: white;
+  font-size: 11px;
+}
+
+.Advantages-content img {
+  width: 100%;
+  height: 149.33px;
+  object-fit: cover;
+
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+.Advantages-content div:hover img {
+  height: 168.01px;
+}
+
+.Advantages-content p {
+  font-size: 10px;
+  line-height: 15px;
+
+  margin-top: 8px;
+}
+
+/* services */
+.Services {
+  text-align: center;
+  color: #10375c;
+}
+
+.Services-desc h1 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+
+.Services-desc p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.35px;
+  color: #4f5665;
+}
+
+.Services-content {
+  /* height: 369.22px; */
+
+  column-gap: 2.2%;
+  margin-top: 45px;
+}
+
+.Services-content h2 {
+  font-weight: 600;
+}
+
+.Services-content div {
+  overflow: hidden;
+
+  border-radius: 15px;
+  border: 1.16px solid #dddddd;
+  width: 369.28px;
+  height: 470.49px;
+}
+
+.Services-content img {
+  width: 100%;
+  height: 255.63px;
+  object-fit: cover;
+
+  margin-bottom: 35px;
+}
+
+.Services-content button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 45px;
+
+  background-color: #ffa800;
+  color: white;
+  border: none;
+  border-radius: 8.21px;
+}
+
+.Services-content button:hover {
+  cursor: pointer;
+  background-color: #e69d0d;
+}
+
+/* video */
+.Video {
+  background-color: #f7f7fd;
+}
+
+.Video > div {
+  width: 1180px;
+  height: 585px;
+  background-image: url("./assets/Services/ServiceImg3.jpg");
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 19px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.315);
+
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.Video button {
+  border-radius: 100%;
+  padding: 25px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.Video button:hover {
+  cursor: pointer;
+}
+
+.Video span {
+  align-self: center;
+  margin-top: 14%;
+  border-radius: 100%;
+  padding: 25px;
+  background-color: #ffffff40;
+}
+
+.Video img {
+  width: 36.89px;
+  height: auto;
+}
+
+.Video p {
+  text-align: center;
+  padding-top: 17px;
+  font-size: 25.25px;
+  font-weight: 500;
+  width: 399px;
+  height: 69.86px;
+  background-color: white;
+  color: #23928b;
+  border-radius: 0 0 35px 0;
+}
+
+/* proccess */
+.Proccess {
+  align-items: baseline;
+  text-align: center;
+  color: #10375c;
+  height: auto;
+}
+
+.Proccess-desc h1 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+
+.Proccess-desc p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.35px;
+  color: #4f5665;
+}
+
+.Proccess-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95vw;
+  height: max-content;
+  margin: 50px 0 0 0;
+}
+
+.Proccess-content > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Proccess-content > div:nth-child(1) {
+  justify-content: baseline;
+}
+
+.Proccess-content > div:nth-child(2) {
+  justify-content: end;
+}
+
+.Proccess-card {
+  width: 495.53px;
+  border-radius: 15.73px;
+  text-align: left;
+  overflow: hidden;
+
+  background-color: #23928b;
+  color: white;
+}
+
+.text {
+  color: white;
+  margin: 15px 19px;
+}
+
+.text p {
+  color: white;
+  font-size: 10.48px;
+  font-weight: 400;
+  line-height: 16.67px;
+}
+
+.image {
+  height: 195.41px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.end {
+  align-items: end;
+}
+
+.image img {
+  width: 100%;
+}
+
+.arrow {
+  width: 300px;
+  align-self: flex-end;
+  margin: 15px -40px 220px 0;
+}
+
+.arrow:only-of-type {
+  margin: 15px 0 200px -40px;
+  align-self: flex-start;
+}
