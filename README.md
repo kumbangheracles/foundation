@@ -104,7 +104,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ```
 MIT License
 
-Copyright (c) [2024] [Ahmad Herkal Taqyudin, Dafa Al Farezi]
+Copyright (c) [2024] [Ahmad Herkal Taqyudin, Dafa Al Farezi, Tito Tri Atmojo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
